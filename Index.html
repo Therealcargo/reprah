@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contract Cargo</title>
+    <style>
+        body {
+            animation: backgroundAnimation 2s infinite alternate;
+            color: white;
+            font-family: cursive;
+        }
+
+        @keyframes backgroundAnimation {
+            0% {
+                background-color: black;
+            }
+
+            100% {
+                background-color: white;
+            }
+        }
+
+        .container {
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 40px;
+        }
+
+        .youtube-link {
+            font-size: 30px;
+        }
+
+        .twitter-link {
+            font-size: 20px;
+        }
+
+        .stars-bg {
+            background-image: url('stars.jpg');
+            background-repeat: repeat;
+        }
+    </style>
+    <script>
+        function playAudio() {
+            var audio = new Audio('Sis 2.mp3');
+            audio.play();
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Contract Cargo</h1>
+        <p class="youtube-link">
+            <a href="https://m.youtube.com/channel/UCArTyoy-T5UF1EW-k2LLtWg" target="_blank" rel="noopener noreferrer">
+                Subscribe ⭐️
+            </a>
+        </p>
+        <p class="twitter-link">
+            <a href="https://twitter.com/ContractCargo" target="_blank" rel="noopener noreferrer">
+                Twitter: @ContractCargo
+            </a>
+        </p>
+        <div class="stars-bg">
+            <button onclick="playAudio()">Play Audio</button>
+        </div>
+    </div>
+</body>
+</html>
