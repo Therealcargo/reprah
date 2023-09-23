@@ -1,68 +1,111 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Contract Cargo</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute</title>
+    <!-- Link to Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <style>
+        /* Add your CSS styles here */
         body {
-            animation: backgroundAnimation 2s infinite alternate;
-            color: white;
-            font-family: cursive;
+            font-family: Arial, sans-serif;
+            background-color: #FFC0CB; /* Pink background color */
         }
-
-        @keyframes backgroundAnimation {
-            0% {
-                background-color: black;
-            }
-
-            100% {
-                background-color: white;
-            }
-        }
-
-        .container {
-            text-align: center;
+        .tribute {
+            max-width: 800px;
+            margin: 0 auto;
             padding: 20px;
+            background-color: #fff; /* White content background color */
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
         }
-
         h1 {
-            font-size: 40px;
+            text-align: center;
         }
-
-        .youtube-link {
-            font-size: 30px;
+        .tribute-info {
+            font-size: 18px;
         }
-
-        .twitter-link {
-            font-size: 20px;
+        .social-links {
+            margin-top: 20px;
         }
-
-        .stars-bg {
-            background-image: url('stars.jpg');
-            background-repeat: repeat;
+        .youtube-embed {
+            margin-top: 20px;
+        }
+        /* Add football and basketball images */
+        .sports-images {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .sports-images img {
+            width: 100px;
+            margin: 0 20px;
+        }
+        /* Style social media links with icons */
+        .social-links ul {
+            list-style: none;
+            padding: 0;
+        }
+        .social-links li {
+            margin-bottom: 10px;
+        }
+        .social-links a {
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .social-icon {
+            margin-right: 10px;
         }
     </style>
-    <script>
-        function playAudio() {
-            var audio = new Audio('Sis 2.mp3');
-            audio.play();
-        }
-    </script>
 </head>
 <body>
-    <div class="container">
-        <h1>Contract Cargo</h1>
-        <p class="youtube-link">
-            <a href="https://m.youtube.com/channel/UCArTyoy-T5UF1EW-k2LLtWg" target="_blank" rel="noopener noreferrer">
-                Subscribe ⭐️
-            </a>
-        </p>
-        <p class="twitter-link">
-            <a href="https://twitter.com/ContractCargo" target="_blank" rel="noopener noreferrer">
-                Twitter: @ContractCargo
-            </a>
-        </p>
-        <div class="stars-bg">
-            <button onclick="playAudio()">Play Audio</button>
+    <div class="tribute">
+        <h1>About Him</h1>
+        <div class="tribute-info">
+            <p><strong>Name:</strong> [Stephan Laurence Wolley]</p>
+            <p><strong>Date of Birth:</strong> [September 26th 1995]</p>
+            <p><strong>Date of Passing:</strong> [Date of Passing]</p>
+            <p><strong>Favorite Quote:</strong></p>
+            <p>[“Time Waits For No Man]</p>
+            <p><strong>Hobbies:</strong></p>
+            <p>[Basketball, Football,]</p>
+            <p><strong>Photos:</strong></p>
+            <p>[Include photos here]</p>
+        </div>
+        
+        <!-- Social Media Links with Icons -->
+        <div class="social-links">
+            <p><strong>Social Media:</strong></p>
+            <ul>
+                <li>
+                    <a href="[Facebook Link]" target="_blank">
+                        <i class="fab fa-facebook social-icon"></i> Facebook
+                    </a>
+                </li>
+                <li>
+                    <a href="[Instagram Link]" target="_blank">
+                        <i class="fab fa-instagram social-icon"></i> Instagram
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+        <!-- Memorial Slideshow -->
+        <div class="youtube-embed">
+            <p><strong>Memorial Slideshow:</strong></p>
+            <iframe width="560" height="315" src="Slideshow For Stephan Laurence Wolley Age 27 - YouTubeYouTubehttps://www.youtube.com › watch" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+        <!-- Funeral YouTube Video -->
+        <div class="youtube-embed">
+            <p><strong>Funeral Services:</strong></p>
+            <iframe width="560" height="315" src="https://m.youtube.com/watch?v=2cedIMWOY5U" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+        <!-- Football and Basketball Images -->
+        <div class="sports-images">
+            <img src="football.png" alt="Football">
+            <img src="basketball.png" alt="Basketball">
         </div>
     </div>
 </body>
